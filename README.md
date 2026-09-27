@@ -52,6 +52,7 @@ The project includes analysis of:
 ## Dashboard
 
 The Excel dashboard provides a simple view of the main results.
+![Dashboard](assets/Dashboard.png)
 
 It includes:
 
