@@ -101,8 +101,6 @@ The following findings are based on the workbook's 10,000 transaction records an
 | [Raw Dataset](raw_data/global_ecommerce_sales_dataset.csv) | Source transaction dataset used for the analysis. |
 | [Project Documentation](documentation/Project_Documentation.docx) | Supporting project documentation. |
 | [Dashboard Preview](assets/Dashboard.png) | View the dashboard screenshot directly on GitHub. |
-
-
 ## How to Explore
 
 1. Open the Excel workbook.
@@ -122,4 +120,7 @@ The following findings are based on the workbook's 10,000 transaction records an
 
 ## Conclusion
 
+
+This project demonstrates how Microsoft Excel can be used to organize transaction data, analyze business performance, and communicate findings through an interactive dashboard. It is a practical example of applying Excel analysis and reporting skills to an e-commerce use case.
+=======
 This project demonstrates how Microsoft Excel can be used to organize transaction data, analyze business performance, and communicate findings through an interactive dashboard. It is a practical example of applying Excel analysis and reporting skills to an e-commerce use case.
