@@ -1,88 +1,112 @@
 # Global E-commerce Performance Intelligence
 
-## Project Overview
+An interactive **Microsoft Excel dashboard** for exploring e-commerce sales and profitability across product categories, regions, payment methods, and time periods.
 
-This project is an Excel-based e-commerce sales analysis project. The main aim is to understand sales and business performance using different views of the data.
+The project demonstrates an end-to-end Excel analysis workflow: data quality checks, analysis with PivotTables, KPI reporting, and an interactive dashboard with slicers.
 
-The project includes data cleaning, analysis, Pivot Tables, charts, KPIs, slicers, and an interactive dashboard.
+## Dashboard Preview
 
-## Project Objective
+![Global E-commerce Performance Dashboard](assets/Dashboard.png)
 
-The main objectives of this project are:
+## Project at a Glance
 
-* Analyze revenue and profit
-* Understand category performance
-* Compare regional performance
-* Analyze payment methods
-* Check monthly sales performance
-* Create an easy-to-use Excel dashboard
+| Item | Details |
+|---|---|
+| Tool | Microsoft Excel |
+| Dataset size | 10,000 records |
+| Dataset fields | 26 columns |
+| Reporting | 8 KPI cards |
+| Interactivity | PivotTables, PivotCharts, and slicers |
+| Focus | Sales, profit, category, region, payment method, and monthly trends |
 
-## Tools Used
+## Business Objective
 
-* Microsoft Excel
-* Excel Formulas
-* Pivot Tables
-* Pivot Charts
-* Slicers
+The goal is to turn raw e-commerce transaction data into a clear view of business performance and help answer questions such as:
+
+- How are revenue and profit changing over time?
+- Which product categories contribute most to revenue and profit?
+- How does performance vary across regions?
+- Which payment methods are used most often?
+- How do discounts relate to profitability?
+- How does sales quantity vary by category?
+
+## Tools and Excel Features
+
+- Microsoft Excel
+- PivotTables and PivotCharts
+- Slicers for interactive filtering
+- Excel formulas and KPI calculations
+- Sorting, filtering, and data-quality checks
+- Charts and dashboard layout
 
 ## Data Preparation
 
-Before starting the analysis, the data was checked and prepared.
+The dataset was reviewed before analysis. The documented preparation checks included:
 
-The main steps included:
+- Checking for blank or missing values
+- Checking for duplicate records
+- Reviewing data formats
+- Checking negative values
+- Reviewing percentage and currency formats
 
-* Checking blank or missing values
-* Checking duplicate records
-* Checking data formats
-* Checking negative values
-* Checking percentage and currency formats
+These checks help make the analysis more consistent and easier to interpret.
 
-## Analysis
+## Analysis Performed
 
-The project includes analysis of:
+The workbook explores the following measures and dimensions:
 
-* Revenue by Category
-* Profit by Category
-* Revenue by Region
-* Profit by Region
-* Quantity by Category
-* Revenue by Payment Method
-* Monthly Revenue
+| Analysis | Business question |
+|---|---|
+| Revenue by category | Which categories generate the most revenue? |
+| Profit by category | Which categories contribute most to profit? |
+| Revenue by region | Where are sales strongest? |
+| Profit by region | How does profitability differ by region? |
+| Quantity by category | Which categories sell the highest quantity? |
+| Revenue by payment method | How is revenue distributed by payment method? |
+| Monthly revenue | How does revenue change month to month? |
+| Discount and profit | How can discounts be examined alongside profitability? |
 
-## Dashboard
+## Dashboard Features
 
-The Excel dashboard provides a simple view of the main results.
-![Dashboard](assets/Dashboard.png)
+- **KPI cards:** A quick summary of key business measures (8 KPIs).
+- **Interactive charts:** Visual comparisons across categories, regions, payment methods, and months.
+- **Slicers:** Filter the dashboard to explore selected segments of the data.
+- **Consolidated view:** Bring several performance perspectives together in one Excel dashboard.
 
-It includes:
+## Key Takeaways
 
-* KPI cards
-* Charts
-* Slicers
-* Category analysis
-* Regional analysis
-* Payment method analysis
-* Monthly sales analysis
+The dashboard is designed to make it easier to investigate:
 
-Slicers can be used to filter the data and view the required information.
+- Category- and region-level revenue and profit
+- Payment-method contribution
+- Monthly revenue patterns
+- Sales quantity across categories
+- The relationship between discounts and profit
 
-## Key Insights
-
-The analysis helps to understand:
-
-* Revenue and profit by category
-* Revenue and profit by region
-* Payment method usage
-* Monthly sales trends
-* Effect of discounts on profit
+Specific numerical findings should be read from the workbook and its interactive filters; this README does not state unverified rankings or business results.
 
 ## Project Files
 
-* `Global_Ecommerce_Performance_Intelligence.xlsx` – Main Excel dashboard and analysis
-* `Documentation` – Project documentation
+- **Excel workbook:** Open the Excel workbook in this repository to explore the analysis and slicers.
+- **Documentation:** Refer to the documentation folder for supporting project material, if included in the repository.
+
+## How to Explore
+
+1. Open the Excel workbook.
+2. Go to the dashboard sheet.
+3. Review the KPI cards for the overall performance snapshot.
+4. Use the slicers to filter the report.
+5. Compare the charts and KPI values after each filter selection.
+
+## Skills Demonstrated
+
+- Data cleaning and validation
+- Exploratory data analysis
+- KPI reporting
+- PivotTable and PivotChart analysis
+- Interactive dashboard development
+- Translating business questions into clear visual summaries
 
 ## Conclusion
 
-This project helped me improve my practical Excel skills. It gave me experience in data cleaning, Pivot Tables, charts, slicers, and dashboard creation.
-
-It also helped me understand how Excel can be used to analyze sales data and present the results in a simple way.
+This project demonstrates how Microsoft Excel can be used to organize transaction data, analyze business performance, and communicate findings through an interactive dashboard. It is a practical example of applying Excel analysis and reporting skills to an e-commerce use case.
