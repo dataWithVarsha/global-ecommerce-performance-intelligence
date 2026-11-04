@@ -75,15 +75,23 @@ The workbook explores the following measures and dimensions:
 
 ## Key Takeaways
 
-The dashboard is designed to make it easier to investigate:
+The following findings are based on the workbook's 10,000 transaction records and its PivotTable summaries:
 
-- Category- and region-level revenue and profit
-- Payment-method contribution
-- Monthly revenue patterns
-- Sales quantity across categories
-- The relationship between discounts and profit
+- **Overall revenue:** 5,284,387.70 across the dataset.
+- **Overall profit:** 1,437,638.31, with an average profit margin of approximately 23.65%.
+- **Leading category:** Electronics generated the highest revenue (3,382,028.46) and the highest category profit (925,448.15).
+- **Leading region:** The Middle East recorded the highest regional revenue (1,348,593.22) and regional profit (384,522.85).
+- **Leading payment method:** PayPal contributed the highest revenue among payment methods (831,620.67).
+- **Discount and shipping:** The dataset-wide average discount is approximately 17.67%, while average shipping time is approximately 11.44 days.
 
-Specific numerical findings should be read from the workbook and its interactive filters; this README does not state unverified rankings or business results.
+### Recommended Business Actions
+
+- Track Electronics revenue and profitability while monitoring category concentration.
+- Investigate the Middle East's performance drivers and compare them with other regions.
+- Review PayPal's customer usage and payment experience alongside other payment methods.
+- Monitor discount levels and shipping times together with profit margin.
+
+*Note: These are descriptive findings from the workbook's current PivotTable summaries, not causal conclusions. Values are shown in the dataset's currency units. Interactive slicers can change the figures when filters are applied.*
 
 ## Project Files
 
