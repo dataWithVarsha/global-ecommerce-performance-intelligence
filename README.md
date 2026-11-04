@@ -87,8 +87,13 @@ Specific numerical findings should be read from the workbook and its interactive
 
 ## Project Files
 
-- **Excel workbook:** Open the Excel workbook in this repository to explore the analysis and slicers.
-- **Documentation:** Refer to the documentation folder for supporting project material, if included in the repository.
+| File | Description |
+|---|---|
+| [Excel Dashboard Workbook](excel_dashboard/Global_Ecommerce_Performance_Intelligence.xlsx) | Open the workbook to explore the KPI dashboard, PivotTables, PivotCharts, and slicers. |
+| [Raw Dataset](raw_data/global_ecommerce_sales_dataset.csv) | Source transaction dataset used for the analysis. |
+| [Project Documentation](documentation/Project_Documentation.docx) | Supporting project documentation. |
+| [Dashboard Preview](assets/Dashboard.png) | View the dashboard screenshot directly on GitHub. |
+
 
 ## How to Explore
 
